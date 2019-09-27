@@ -21,7 +21,9 @@ tags:								#标签
 > 4.JS变量按照存储方式分为哪些类型，并描述其特点
 >
 > 5.如何理解 JSON
+
 ## 知识点
+
 ### 1: 数据类型
 #### 值类型: 5种 string,number,bolean,null,undefind
 ```
