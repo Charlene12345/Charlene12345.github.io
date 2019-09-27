@@ -62,11 +62,12 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 381b7eff364ab7b3c4cc                            #生成的clientID
+  clientSecret: 9052a9a118c56f62ef6ec0b2d35f9e3d25f03c51    #生成的clientSecret
+  repo: Charlene12345.github.io    #仓库名称
+  owner: Charlene12345    #github用户名
+  admin: Charlene12345
+  id: 'window.location.pathname', //页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
