@@ -96,7 +96,7 @@ service-worker: true
 
 
 
-Friends: [
+FRIENDS: [
   {
     title: "Vue.js",
     href: "https://cn.vuejs.org/"
