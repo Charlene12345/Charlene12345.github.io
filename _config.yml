@@ -1,26 +1,26 @@
 # Site settings
 title: Charlene's Blog
 SEOTitle: 杨青的博客 | Charlene's Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/Alan Walker.jpg
 email: qingyang12345@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Charlene, Charlene's Blog, 杨青的博客, 杨青, yangqing, iOS, Apple, iPhone"
-url: "http://Charlene12345.github.io"          # your host, for absolute URL
+url: "https://Charlene12345.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "There is a Crack in Everything, That's How the Light Gets in."
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     Charlene
 github_username:    Charlene12345
+zhihu_username:     Charlene
 #facebook_username:  
 juejin_username:   Charlene12345
 #twitter_username:   qiubaiying
@@ -97,18 +97,21 @@ service-worker: true
 
 
 # Friends
-friends: [
+Resource: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
+        title: "Vue.js",
+        href: "https://cn.vuejs.org/"
+    },
+    {
+        title: "掘金",
+        href: "https://juejin.im/timeline"
+    },
+    {
+        title: "SegmentFault",
+        href: "https://segmentfault.com/"
+    },
+    {
+        title: "博客园",
+        href: "https://www.cnblogs.com/"
+    },
 ]
