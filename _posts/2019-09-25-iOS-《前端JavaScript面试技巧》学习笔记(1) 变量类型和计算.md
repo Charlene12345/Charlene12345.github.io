@@ -12,15 +12,15 @@ tags:								#标签
 
 
 ## 问题
-> 1.JS中使用 typeof 能得到哪些类型
->
-> 2.何时使用 '==='，何时使用 '=='
->
-> 3.JS有哪些内置函数
->
-> 4.JS变量按照存储方式分为哪些类型，并描述其特点
->
-> 5.如何理解 JSON
+ 1.JS中使用 typeof 能得到哪些类型<br>
+
+ 2.何时使用 '==='，何时使用 '=='<br>
+
+ 3.JS有哪些内置函数<br>
+
+ 4.JS变量按照存储方式分为哪些类型，并描述其特点<br>
+
+ 5.如何理解 JSON<br>
 
 ## 知识点
 
@@ -57,13 +57,13 @@ typeof console.log //function
 ```
 typeof 不能详细区分引用类型(对象、数组)的详细类型，但是可以详细区分function以及所有值类型。
 ### 3: 会发生类型转换的场景
-> 字符串拼接
-> 
-> == 运算符
->
-> if 语句
->
-> 逻辑运算
+ 字符串拼接<br>
+ 
+ == 运算符<br>
+
+ if 语句<br>
+
+ 逻辑运算<br>
 *    字符串拼接
 ```
 var a = 100 + 10 // 110
@@ -109,10 +109,11 @@ console.log(!window.abc) // true  !undefined 为 true
 ```
 ## 解题
 1: JS中使用typeof能得到哪些类型 ?<br>
-> string, number, boolean, object, function,undefined
+ string, number, boolean, object, function,undefined
 
 2: 何时使用 == 和 = = = ?
-> 当判断对象的属性是否是 null 和 undefind 的时候,使用 == ;其他情况全部用 = = =;
+
+ 当判断对象的属性是否是 null 和 undefind 的时候,使用 == ;其他情况全部用 = = =;
 ```
     //仅有这种情况使用 '=='
     if (obj.a == null) {
@@ -121,46 +122,44 @@ console.log(!window.abc) // true  !undefined 为 true
     }
 ```
 3: js中有哪些内置函数 -- 数据封装类对象<br>
-> Number
->
-> String
->
-> Boolean
->
-> Object
->
-> Array
->
-> Function
->
-> Date
->
-> RegExp
->
-> Error
+```
+Number
+String
+Boolean
+Object
+Array
+Function
+Date
+RegExp
+Error
+```
 
 js中内置对象: Math,JSON
 
+
 4: JS变量按照存储方式分为哪些类型，并描述其特点
 
-> 分为值类型和引用类型
+ 分为值类型和引用类型
 
 * 值类型 : 将变量值分块儿储存在内存中(给变量赋值后,变量值不会改变)
 
 * 引用类型 : 好几个变量共用一个内存块儿,可以节省内存空间(给变量赋值后,变量值会改变)
-```
+
+(```)
 // 值类型
 var a = 100
 var b = a
 a = 200
 console.log(b) //100
 
+
 // 引用类型
 var a = {age:20}
 var b = a
 b.age = 21
 console.log(a.age) //21
-```
+(```)
+
 5: 如何理解JSON?
 
 * JSON只不过是一个 JS对象而已;
