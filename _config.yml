@@ -96,22 +96,21 @@ service-worker: true
 
 
 
-# Friends
-Resource: [
-    {
-        title: "Vue.js",
-        href: "https://cn.vuejs.org/"
-    },
-    {
-        title: "掘金",
-        href: "https://juejin.im/timeline"
-    },
-    {
-        title: "SegmentFault",
-        href: "https://segmentfault.com/"
-    },
-    {
-        title: "博客园",
-        href: "https://www.cnblogs.com/"
-    },
+Friends: [
+  {
+    title: "Vue.js",
+    href: "https://cn.vuejs.org/"
+  },
+  {
+    title: "掘金",
+    href: "https://juejin.im/timeline"
+  },
+  {
+    title: "SegmentFault",
+    href: "https://segmentfault.com/"
+  },
+  {
+    title: "博客园",
+    href: "https://www.cnblogs.com/"
+  },
 ]
