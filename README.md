@@ -1,4 +1,7 @@
+致谢
+这个模板是从这里 fork。
 
+<<<<<<< HEAD
 [我的博客](https://charlene12345.github.io/) 
 
 ## 致谢
@@ -10,3 +13,6 @@
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
 
+=======
+详细的教程戳这 《利用 GitHub Pages 快速搭建个人博客》
+>>>>>>> aac3c0c9687281b598e85667ad5c81898995e6e6
