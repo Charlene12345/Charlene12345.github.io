@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 title:      变量类型和计算 				# 标题 
 subtitle:   《前端JavaScript面试技巧》学习笔记(1) #副标题
 date:       2019-09-27 				# 时间
-author:     YangQing 						# 作者
+author:     Charlene 						# 作者
 header-img: img/js1.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
