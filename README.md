@@ -10,6 +10,4 @@
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
 
-=======
-详细的教程戳这 《利用 GitHub Pages 快速搭建个人博客》
 
