@@ -43,7 +43,8 @@ console.log(a.age) //21
 
 特点:引用类型可以无限制的扩展属性,在引用类型中变量是指针,指向这个对象,所以可以减少内存的占用;
 由于引用类型占用内存空间较大，所以会出现公用内存空间的情况，变量a,b是指向某个内存空间的指针。而var b=a时，其实是b又指向了与a相同的内存空间，{age:20}仅存在一份。
-### 2: typerof 运算符详解
+### 2: typeof 运算符详解
+
 ```
 typeof undefined//undefined
 typeof 'abc' //string
@@ -57,19 +58,25 @@ typeof console.log //function
 ```
 typeof 不能详细区分引用类型(对象、数组)的详细类型，但是可以详细区分function以及所有值类型。
 ### 3: 会发生类型转换的场景
-* 字符串拼接
+
+字符串拼接
+
 ```
 var a = 100 + 10 // 110
 var b= 100 + '10' // '1010'
 ```
-* == 运算符
+
+== 运算符
+
 ```
 100 == '100'  // true; 前面一个100 被转换成了字符串
 0 == ' ' // true // true
 null == undefind // true 
 ```
 **注意**: '==' 需要慎用，因为会试图进行类型转换使前后相等
-* if语句
+
+if语句
+
 ```
 var a=true
 if(a){
@@ -93,13 +100,15 @@ if(undefind) {},
 if(" ") {},
 if(null) {};
 ```
-* 逻辑运算
+
+逻辑运算
 
 ```
 console.log(10 & 0) // 0  转换为 true && 0
 console.log(' ' || 'abc') // abc  转换为 false||'abc'
 console.log(!window.abc) // true  !undefined 为 true
 ```
+
 ## 解题
 1: JS中使用typeof能得到哪些类型 ?<br>
  string, number, boolean, object, function,undefined
@@ -129,11 +138,11 @@ Error
 js中内置对象: Math,JSON
 
 
-4: JS变量按照存储方式分为哪些类型，并描述其特点<br>
- 分为值类型和引用类型<br>
-* 值类型 : 将变量值分块儿储存在内存中(给变量赋值后,变量值不会改变)
+4: JS变量按照存储方式分为哪些类型，并描述其特点
 
-* 引用类型 : 好几个变量共用一个内存块儿,可以节省内存空间(给变量赋值后,变量值会改变)
+分为值类型和引用类型<br>
+值类型 : 将变量值分块儿储存在内存中(给变量赋值后,变量值不会改变)<br>
+引用类型 : 好几个变量共用一个内存块儿,可以节省内存空间(给变量赋值后,变量值会改变)
 
 ```
 // 值类型
@@ -150,15 +159,16 @@ b.age = 21
 console.log(a.age) //21
 ```
 
-5: 如何理解JSON?<br>
-- JSON只不过是一个 JS对象而已;
-- JSON是一种数据格式;
-- JSON最常用的两个API(如图):
+5: 如何理解JSON?
+
+JSON只不过是一个 JS对象而已;<br>
+JSON是一种数据格式;<br>
+JSON最常用的两个API(如图):
+
 ```
 JSON.stringify({ a:10, b:20 }) //将对象转换为字符串
 JSON.parse('{ "a":10, "b":20 }') //把字符串转换为对象
 ```
 
-第一个将字符串变成对象;JSON.stringify({a:10, b:20})
-
+第一个将字符串变成对象;JSON.stringify({a:10, b:20})<br>
 第二个将对象变成字符串:JSON.parse('{"a":"10" , "b":"20"}')
