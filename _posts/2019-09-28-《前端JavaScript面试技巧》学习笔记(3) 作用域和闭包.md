@@ -387,5 +387,5 @@ firstLoad(20);//false
 ```
 
 ## 资源
-[学习Javascript闭包（Closure）- 阮一峰](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+[学习Javascript闭包（Closure）- 阮一峰](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)<br>
 [深入理解javascript原型和闭包（完结）- 王福朋](https://www.cnblogs.com/wangfupeng1988/p/3977924.html)
