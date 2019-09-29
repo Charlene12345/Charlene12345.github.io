@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      原型链 				# 标题 
-subtitle:   《前端JavaScript面试技巧》学习笔记(2) #副标题
+title:      作用域和闭包 				# 标题 
+subtitle:   《前端JavaScript面试技巧》学习笔记(3) #副标题
 date:       2019-09-29 				# 时间
 author:     Charlene 						# 作者
 header-img: img/js1.jpg 	#这篇文章标题背景图片
