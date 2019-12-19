@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      前端资料 				# 标题 
+title:      错误记录 				# 标题 
 subtitle:   《解决Git 克隆代码 The remote end hung up unexpectedly错误》 #副标题
 date:       2019-12-19 				# 时间
 author:     Charlene 						# 作者
